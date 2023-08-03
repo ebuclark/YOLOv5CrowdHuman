@@ -1,0 +1,10 @@
+# crowdhuman.yaml
+ 
+train: "./data/crowdhuman-608x608/train.txt" 
+val: "./data/crowdhuman-608x608/test.txt"
+#path to your data train.txt or test.txt
+#(also both them are in the same folder,that dosen't matter)
+#path: ./data/crowdhuman-608x608/  # dataset root dir
+
+nc: 2
+names: ["head", "person"]
